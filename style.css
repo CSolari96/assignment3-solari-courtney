@@ -1,0 +1,121 @@
+/*
+	Theme Name: Assignment 2
+	Theme URI: 
+	Author: Courtney Solari
+	Description: This is Assignment 2 for Web Interactivity & Engagement
+	Version: 1.0
+	License: Open
+	Text Domain: assignment2
+*/
+
+/*
+Color Values:
+	Navy: #1d3354;
+	Blue: #467599;
+	Aqua: #9ed8db;
+	White: #e9fff9;
+	Red: #d64045;
+*/
+
+/* Universal Styling */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #e9fff9;
+	color: #1d3354;
+	font-family: "Raleway", "sans-serif";
+	font-weight: 400;
+}
+
+h1, h2, h3 {
+	color: #d64045;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+main {
+	margin: 5% 0;
+}
+/* End Universal Stying */
+
+/* Header */
+header {
+	background-color: #467599;
+	padding: 2% 0;
+}
+
+h1 a:link, h1 a:active, h1 a:hover, h1 a:visited {
+	color: #e9fff9;
+	text-decoration: none;
+}
+
+.logo-container {
+	text-align: center;
+}
+
+header p {
+	color: #e9fff9;
+	text-align: center;
+	margin-top: 4%;
+}
+/* End Header */
+
+/* Post Preview and Single Post Page */
+.post-preview {
+	margin-bottom: 5%;
+}
+/* Featured Image */
+.post-featured-image {
+	margin: 3% 0;
+}
+
+.post-featured-image img {
+	width: 100%;
+	object-fit: cover;
+}
+/* End Featured Image */
+
+.post-info {
+	padding: 1% 0;
+	border-bottom: 2px #9ed8db solid;
+	font-weight: 600;
+}
+
+.btn {
+	background-color: #d64045;
+	color: #e9fff9;
+}
+
+.btn:hover {
+	background-color: #467599;
+	color: #e9fff9;
+}
+/* End Post Preview and Single Post Page */
+
+/* Footer */
+footer {
+	background-color: #1d3354;
+	color: #e9fff9;
+	padding: 2% 0;
+}
+/* End Footer */
+
+/* Media Query */
+@media (min-width: 768px) {
+	.logo-container {
+		text-align: left;
+	}
+
+	header p {
+		text-align: right;
+		margin: 0;
+	}
+}
+
+/* End Media Query */
