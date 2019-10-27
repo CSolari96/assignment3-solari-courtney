@@ -11,33 +11,29 @@
 
 ?>
 
+	<?php dynamic_sidebar("hero-image"); ?>
+
 	<div class="container">
 
 		<div class="row">
 
-			<div class="col-md-12">
+			<main class="col-md-12">
 
-				<?php dynamic_sidebar("hero-image"); ?>
+				<?php
+					if (have_posts()) {
+						while (have_posts()) {
+							the_post(); ?>
 
-				<main>
+							<h2><?php the_title(); ?></h2>
 
-					<?php
-						if (have_posts()) {
-							while (have_posts()) {
-								the_post(); ?>
+							<?php the_content(); ?>
+				<?php
+						}  // End while
+					}  // End if
 
-								<h2><?php the_title(); ?></h2>
+				?>
 
-								<?php the_content(); ?>
-					<?php
-							}  // End while
-						}  // End if
-
-					?>
-
-				</main>
-
-			</div>
+			</main>
 
 		</div>
 
