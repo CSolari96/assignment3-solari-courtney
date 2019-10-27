@@ -42,7 +42,7 @@
 
 				<div class="col-md-8">
 
-					<p><?php bloginfo("description"); ?>
+					<p><?php bloginfo("description"); ?></p>
 
 				</div>
 			</div>
