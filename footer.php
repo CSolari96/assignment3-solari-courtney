@@ -4,9 +4,21 @@
 
 		<div class="row">
 
-			<div claass="col-md-12">
+			<div class="col-md-3">
 
-				<p>Created by: Courtney Solari</p>
+				<?php dynamic_sidebar("left-footer"); ?>
+
+			</div>
+
+			<div class="col-md-6">
+
+				<?php dynamic_sidebar("middle-footer"); ?>
+
+			</div>
+
+			<div class="col-md-3">
+
+				<?php dynamic_sidebar("right-footer"); ?>
 
 			</div>
 

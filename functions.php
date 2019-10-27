@@ -42,4 +42,59 @@
 
 	add_theme_support("post-thumbnails");
 
+	/*==============================================
+
+		Add menus to theme
+
+	===============================================*/
+
+	function register_my_menus() {
+
+		register_nav_menus( array(
+			"top-menu" => ("Top Menu")
+		));
+	}
+
+	add_action("init", "register_my_menus");
+
+	/*==============================================
+
+		Add widget areas to theme
+
+	===============================================*/
+
+	function blank_widgets_init() {
+
+		register_sidebar( array(
+			"name" 			=> 	("Left Footer"),
+			"id" 			=> 	"left-footer",
+			"description" 	=> 	"Left footer area for template",
+			"before_widget" => 	"<div class='widget-left-footer'>",
+			"after_widget" 	=> 	"</div>",
+			"before_title" 	=> 	"<h4 class='left-footer-widget-title'>",
+			"after_title" 	=> 	"</h4>"
+		));
+
+		register_sidebar( array(
+			"name" 			=> 	("Middle Footer"),
+			"id" 			=> 	"middle-footer",
+			"description" 	=> 	"Middle footer area for template",
+			"before_widget" => 	"<div class='widget-middle-footer'>",
+			"after_widget" 	=> 	"</div>",
+			"before_title" 	=> 	"<h4 class='middle-footer-widget-title'>",
+			"after_title" 	=> 	"</h4>"
+		));
+
+		register_sidebar( array(
+			"name" 			=> 	("Right Footer"),
+			"id" 			=> 	"right-footer",
+			"description" 	=> 	"Right footer area for template",
+			"before_widget" => 	"<div class='widget-right-footer'>",
+			"after_widget" 	=> 	"</div>",
+			"before_title" 	=> 	"<h4 class='right-footer-widget-title'>",
+			"after_title" 	=> 	"</h4>"
+		));
+	}
+
+	add_action("widgets_init", "blank_widgets_init");
 ?>

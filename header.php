@@ -17,7 +17,19 @@
 	<header>
 		
 		<div class="container">
+
 			<div class="row">
+
+				<div class="col-md-12">
+
+					<p><?php bloginfo("description"); ?></p>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
 				<div class="col-md-4 logo-container">
 
 					<?php if (get_header_image() == "") { ?>
@@ -42,9 +54,24 @@
 
 				<div class="col-md-8">
 
-					<p><?php bloginfo("description"); ?></p>
+					<nav>
+
+						<?php
+
+							if (has_nav_menu("top-menu")) {
+								wp_nav_menu( array(
+									"theme_location" => "top-menu",
+									"container_class" => "top-menu-class"
+								));
+							} else {
+								echo "Please select a top menu through the dashboard";
+							}
+						?>
+
+					</nav>
 
 				</div>
+
 			</div>
 		</div>
 
