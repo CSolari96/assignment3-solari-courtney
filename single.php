@@ -40,7 +40,7 @@
 
 			<aside class="col-md-4">
 
-				<?php dynamic_sidebar("right-sidebar"); ?>
+				<?php get_sidebar(); ?>
 
 			</aside>
 
