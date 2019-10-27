@@ -71,8 +71,8 @@
 			"description"	=>	"Hero image on home page",
 			"before_widget"	=>	"<div class='widget-hero-image'>",
 			"after_widget"	=>	"</div>",
-			"before_title"	=>	"<h3 class='hero-image-widget-title'>",
-			"after_title"	=>	"</h3>"
+			"before_title"	=>	"<h2 class='hero-image-widget-title'>",
+			"after_title"	=>	"</h2>"
 		));
 
 		register_sidebar( array(

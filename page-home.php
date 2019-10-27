@@ -24,8 +24,6 @@
 						while (have_posts()) {
 							the_post(); ?>
 
-							<h2><?php the_title(); ?></h2>
-
 							<?php the_content(); ?>
 				<?php
 						}  // End while
@@ -39,11 +37,17 @@
 
 		<div class="row">
 
-			<div class="col-md-8">
+			<section class="col-md-8">
 
 				<?php dynamic_sidebar("bottom-left-home-page"); ?>
 
-			</div>
+			</section>
+
+			<aside class="col-md-4">
+
+				<?php get_sidebar(); ?>
+
+			</aside>
 
 		</div>
 
