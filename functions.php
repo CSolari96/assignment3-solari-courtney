@@ -124,6 +124,16 @@
 			"before_title" 	=> 	"<h3 class='right-sidebar-widget-title'>",
 			"after_title" 	=> 	"</h3>"
 		));
+
+		register_sidebar( array(
+			"name" 			=> 	("404 Image"),
+			"id" 			=> 	"404-image",
+			"description" 	=> 	"Image area for 404 template",
+			"before_widget" => 	"<div class='widget-404-image'>",
+			"after_widget" 	=> 	"</div>",
+			"before_title" 	=> 	"<h3 class='404-image-widget-title'>",
+			"after_title" 	=> 	"</h3>"
+		));
 	}
 
 	add_action("widgets_init", "blank_widgets_init");
