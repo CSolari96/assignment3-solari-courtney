@@ -66,6 +66,26 @@
 	function blank_widgets_init() {
 
 		register_sidebar( array(
+			"name"			=>	("Hero Image"),
+			"id"			=>	"hero-image",
+			"description"	=>	"Hero image on home page",
+			"before_widget"	=>	"<div class='widget-hero-image'>",
+			"after_widget"	=>	"</div>",
+			"before_title"	=>	"<h3 class='hero-image-widget-title'>",
+			"after_title"	=>	"</h3>"
+		));
+
+		register_sidebar( array(
+			"name" 			=> 	("Bottom left home page"),
+			"id" 			=> 	"bottom-left-home-page",
+			"description" 	=> 	"Bottom left section on the home page",
+			"before_widget" => 	"<div class='widget-bottom-left'>",
+			"after_widget" 	=> 	"</div>",
+			"before_title" 	=> 	"<h3 class='bottom-left-widget-title'>",
+			"after_title" 	=> 	"</h3>"
+		));
+
+		register_sidebar( array(
 			"name" 			=> 	("Left Footer"),
 			"id" 			=> 	"left-footer",
 			"description" 	=> 	"Left footer area for template",
@@ -93,6 +113,16 @@
 			"after_widget" 	=> 	"</div>",
 			"before_title" 	=> 	"<h4 class='right-footer-widget-title'>",
 			"after_title" 	=> 	"</h4>"
+		));
+
+		register_sidebar( array(
+			"name" 			=> 	("Right Sidebar"),
+			"id" 			=> 	"right-sidebar",
+			"description" 	=> 	"Right sidebar area for template",
+			"before_widget" => 	"<div class='widget-right-sidebar'>",
+			"after_widget" 	=> 	"</div>",
+			"before_title" 	=> 	"<h3 class='right-sidebar-widget-title'>",
+			"after_title" 	=> 	"</h3>"
 		));
 	}
 
