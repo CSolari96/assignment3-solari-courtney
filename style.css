@@ -64,6 +64,27 @@ header p {
 	text-align: center;
 	margin-top: 4%;
 }
+
+/* Navigation */
+.top-menu-class ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 4% 0;
+}
+
+.top-menu-class ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.top-menu-class ul li a:link, .top-menu-class ul li a:visited {
+    color: #ffffff;
+}
+
+.top-menu-class ul li a:hover, .top-menu-class ul li a:active {
+	border-bottom: 2px solid #d64045;
+}
+/* End Navigation */
 /* End Header */
 
 /* Post Preview and Single Post Page */
