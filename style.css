@@ -79,10 +79,12 @@ header p {
 
 .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .top-menu-class ul li a:hover, .top-menu-class ul li a:active {
 	border-bottom: 2px solid #d64045;
+	padding-bottom: 1%;
 }
 /* End Navigation */
 /* End Header */
