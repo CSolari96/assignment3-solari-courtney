@@ -16,7 +16,7 @@
 
 	<header>
 
-		<div class="taglin">
+		<div class="tagline">
 
 			<div class="container">
 
