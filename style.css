@@ -100,7 +100,7 @@ aside {
 	background-color: #d64045;
 	color: #e9fff9;
 	padding: 2%;
-	margin-bottom: 5%;
+	margin: 5% 0;
 }
 
 aside h3, aside h4 {
@@ -166,6 +166,31 @@ footer {
 	background-color: #1d3354;
 	color: #e9fff9;
 	padding: 2% 0;
+}
+
+footer ul li a:link, footer ul li a:visited {
+	color: #e9fff9;
+}
+
+footer ul li a:hover, footer ul li a:active {
+	color: #9ed8db;
+}
+
+.widget-left-footer ul, .widget-right-footer ul {
+	list-style-type: none;
+}
+
+.widget-middle-footer {
+	text-align: center;
+}
+
+.widget-middle-footer img {
+	display: block;
+	margin: auto;
+}
+
+.widget-right-footer {
+	text-align: right;
 }
 /* End Footer */
 
