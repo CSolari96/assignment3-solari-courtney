@@ -78,7 +78,7 @@ header p {
 }
 
 .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
-    color: #ffffff;
+    color: #e9fff9;
     text-decoration: none;
 }
 
@@ -95,6 +95,13 @@ main.home-page {
 }
 
 /* End Home Page Template */
+
+/* Sidebar */
+aside {
+	background-color: #d64045;
+	color: #e9fff9;
+}
+/* End Sidebar */
 
 /* Post Preview and Single Post Page */
 .post-preview {
