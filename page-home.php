@@ -24,6 +24,8 @@
 						while (have_posts()) {
 							the_post(); ?>
 
+							<h2 class="home-page"><?php the_title(); ?></h2>
+
 							<?php the_content(); ?>
 				<?php
 						}  // End while
