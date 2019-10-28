@@ -101,15 +101,23 @@ aside {
 	background-color: #d64045;
 	color: #e9fff9;
 	padding: 2%;
+	margin-bottom: 5%;
 }
 
 aside h3, aside h4 {
 	color: #9ed8db;
 }
 
+.widget-right-sidebar {
+	margin: 10% 5%;
+}
+
+.widget-right-sidebar ul {
+	padding-left: 5%;
+}
+
 .widget-right-sidebar img{
-	width: 100%;
-	max-width: 150px;
+	display: block;	
 	margin: auto;
 }
 
