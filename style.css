@@ -42,6 +42,10 @@ h1, h2, h3 {
 main {
 	margin: 5% 0;
 }
+
+div.row {
+	margin: 0 1%;
+}
 /* End Universal Stying */
 
 /* Header */
