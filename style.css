@@ -177,6 +177,10 @@ footer ul li a:hover, footer ul li a:active {
 	color: #9ed8db;
 }
 
+.widget-left-footer, .widget-middle-footer, .widget-right-footer {
+	margin: 3% 0;
+}
+
 .widget-left-footer ul, .widget-right-footer ul {
 	list-style-type: none;
 }
