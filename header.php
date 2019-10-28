@@ -15,18 +15,26 @@
 <body>
 
 	<header>
-		
-		<div class="container">
 
-			<div class="row">
+		<div class="taglin">
 
-				<div class="col-md-12 tagline">
+			<div class="container">
 
-					<p><?php bloginfo("description"); ?></p>
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<p><?php bloginfo("description"); ?></p>
+
+					</div>
 
 				</div>
 
 			</div>
+
+		</div>
+		
+		<div class="container">
 
 			<div class="row">
 
