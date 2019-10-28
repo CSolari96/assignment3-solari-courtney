@@ -200,12 +200,12 @@ footer ul li a:hover, footer ul li a:active {
 }
 
 @media (min-width: 800px) {
-	.widget-left-footer {
-		text-align: left;
-	}
-
 	.widget-right-footer {
 		text-align: right;
+	}
+
+	.widget-left-footer {
+		text-align: left;
 	}
 }
 
