@@ -4,13 +4,13 @@
 
 		<main class="row">
 
-			<div class="col-md-4">
+			<div class="col-md-4 offset-md-2">
 
 				<?php dynamic_sidebar("404-image"); ?>
 
 			</div>
 
-			<div class="col-md-8">
+			<div class="col-md-4">
 
 				<h2>Oh no!</h2>
 
