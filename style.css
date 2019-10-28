@@ -54,6 +54,11 @@ header {
 	padding: 2% 0;
 }
 
+.tagline {
+	background-color: #1d3354;
+	
+}
+
 h1 a:link, h1 a:active, h1 a:hover, h1 a:visited {
 	color: #e9fff9;
 	text-decoration: none;
