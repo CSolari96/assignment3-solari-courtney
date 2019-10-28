@@ -166,6 +166,7 @@ footer {
 	background-color: #1d3354;
 	color: #e9fff9;
 	padding: 2% 0;
+	text-align: center;
 }
 
 footer ul li a:link, footer ul li a:visited {
@@ -180,17 +181,9 @@ footer ul li a:hover, footer ul li a:active {
 	list-style-type: none;
 }
 
-.widget-middle-footer {
-	text-align: center;
-}
-
 .widget-middle-footer img {
 	display: block;
 	margin: auto;
-}
-
-.widget-right-footer {
-	text-align: right;
 }
 /* End Footer */
 
@@ -203,6 +196,16 @@ footer ul li a:hover, footer ul li a:active {
 	header p {
 		text-align: right;
 		margin: 0;
+	}
+}
+
+@media (min-width: 800px) {
+	.widget-middle-footer {
+		text-align: center;
+	}
+
+	.widget-right-footer {
+		text-align: right;
 	}
 }
 
