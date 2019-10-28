@@ -173,6 +173,10 @@ aside h3, aside h4 {
 	color: #e9fff9;
 }
 
+a.btn {
+	color: #e9fff9;
+}
+
 .btn:hover {
 	background-color: #467599;
 	color: #e9fff9;
