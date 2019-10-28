@@ -39,6 +39,14 @@ h1, h2, h3 {
 	font-weight: 800;
 }
 
+a:link, a:visited {
+	color: #d64045;
+}
+
+a:hover, a:active {
+	color: #1d3354;
+}
+
 main {
 	margin: 5% 0;
 }
