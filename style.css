@@ -89,6 +89,13 @@ header p {
 /* End Navigation */
 /* End Header */
 
+/* Home Page Template */
+main.home-page {
+	border-bottom: 3px solid #d64045;
+}
+
+/* End Home Page Template */
+
 /* Post Preview and Single Post Page */
 .post-preview {
 	margin-bottom: 5%;

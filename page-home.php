@@ -17,7 +17,7 @@
 
 		<div class="row">
 
-			<main class="col-md-12">
+			<main class="col-md-12 home-page">
 
 				<?php
 					if (have_posts()) {
